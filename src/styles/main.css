@@ -1,0 +1,295 @@
+@import './reset.css';
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0;
+}
+
+h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 30px;
+    max-height: 44px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 120%;
+    padding: 10px;
+}
+
+/*main window*/
+.main{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    padding:40px;
+    background-color: #232323;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main-container{
+    padding-top: 100px;
+}
+
+.main-image{
+    position: absolute;
+    top: 130px;
+    left: 167px;
+    z-index: -1;
+}
+
+.main-title{
+    max-width: 1168px;
+    max-height: 397px;
+    margin-left: 212px;
+    margin-top: 438px;
+    z-index: 2;
+    
+}
+
+.main-title p{
+    font-family: 'Chilanka', cursive;
+    font-size: 132px;
+    line-height: 88px;
+}
+
+.portfolio-container{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    
+}
+.portfolio-container h1{
+    font-size: 190px;
+    text-transform: uppercase;
+    line-height: 190px;
+}
+
+.portfolio-container h2{
+    font-size: 124px;
+    line-height: 118px;
+}
+
+/*ABOUT ME*/
+.about-me .container{
+    display: flex;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 818px;
+    background-color: #232323;
+    font-size: 16px;
+    border-radius: 38px;
+}
+
+.card-container .main-information{
+    margin: 75px 69px 30px;
+}
+
+.my-photo-container{
+    background-color: #0992CF;
+    border-radius: 38px;
+    width: 250px;
+    height: 250px;
+}
+.my-photo-container img{
+    margin-top: -25px;
+    border-radius: 38px;
+}
+
+.text .name{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.text .title{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.text p{
+    margin-top: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 62px 0;
+}
+
+.button{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 134px;
+}
+
+.my-information{
+    width: 583px;
+    height: 374px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.my-information p{
+    font-size: 48px;    
+}
+
+/*SKILL*/
+.my-skill{
+    padding-top: 150px;
+    width: 878px;
+    margin-left: 490px;
+    padding-bottom: 64px;
+}
+
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:40px;
+}
+
+.information-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 45px 45px 40px;
+}
+
+.information-box p{
+    display: inline-block;
+}
+
+/*PORFOLIO*/
+.container-portfolio{
+    width: 878px;
+    padding-top: 150px;
+    margin-left: 490px;
+    padding-bottom: 20px;
+}
+
+.filter{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 40px;
+    
+}
+.filter ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.filter ul li{
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 132px;
+    text-align: center;
+    padding:10px;
+}
+
+.work-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.work-container figure{
+    width: 230px;
+    height: 260px;
+    margin-bottom: 22px;
+}
+
+.work-container a{
+    display: inline-block;
+    width: 230px;
+    height: 230px; 
+    border: 1px solid white;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.work-container figcaption{
+    text-align: center;
+}
+
+/*FOOTER*/
+footer{
+    height: 300px;
+    background-color: #232323;
+}
+
+footer .container{
+    width: 878px;
+    height: 160px;
+    margin-left: 490px;
+    padding-top: 75px;
+}
+
+.contacts-box{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-box a{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #2F2F2F;
+    border-radius: 16px;
+    width: 228px;
+    padding: 10px;
+    align-items: center; 
+    gap: 10px;
+    justify-content: center;
+}
+
+.contacts-box img{
+    align-content: center; 
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
